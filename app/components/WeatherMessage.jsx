@@ -2,7 +2,7 @@ var React = require('react');
 
 var WeatherMessage = ({temp,location}) => {
   return(
-      <p>It is {temp} in {location}!</p>
+      <h3 className="text-center">It is {Math.round(temp)}&#8451; in {location}!</h3>
   );
 }
 
